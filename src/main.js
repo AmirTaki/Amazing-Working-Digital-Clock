@@ -1,0 +1,1 @@
+const hours = document.querySelector("#hours")
