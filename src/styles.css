@@ -27,6 +27,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #time .circle svg {
@@ -57,8 +58,9 @@ body{
 
 #time div span {
     position: absolute;
-    transform: translateX(-40%) translateY(-1px);
-    font-size: .35em ;
+    transform: translateX(-50%) translateY(-3px);
+    /* font-size: ; */
+    font-size: 12px;
     font-weight: 300;
     letter-spacing: .1em;
     text-transform: uppercase;
