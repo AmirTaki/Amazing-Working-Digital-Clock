@@ -32,7 +32,7 @@ setInterval(() => {
     m = (m < 10) ? "0" + m : m
     s = (s < 10) ? "0" + s : s
 
-    hours.innerHTML = h;
+    hours.innerHTML = h + "<br/><span>Hours</span>";
     minutes.innerHTML = m;
     seconds.innerHTML = s;
     ampm.innerHTML = am;
