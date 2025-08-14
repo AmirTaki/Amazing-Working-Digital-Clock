@@ -56,6 +56,6 @@ body{
 }
 #time .ap {
     position: relative;
-    font: 1em;
+    font-size: 1em;
     transform: translateX(-20px);
 }

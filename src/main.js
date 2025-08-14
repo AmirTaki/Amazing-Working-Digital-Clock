@@ -35,8 +35,8 @@ setInterval(() => {
  
     // 12hr clock
     hh.style.strokeDashoffset = 440 - (440 * h) / 12
-
+    // 60 minutes
     mm.style.strokeDashoffset = 440 - (440 * m) / 60
-
+    // 60 seconds
     ss.style.strokeDashoffset = 440 - (440 * s) / 60
 } )
