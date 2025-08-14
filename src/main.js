@@ -7,6 +7,7 @@ setInterval(() => {
 
     
     let hh = document.getElementById("hh")
+    let mm = document.getElementById("mm")
 
 
     let h = new Date().getHours();
