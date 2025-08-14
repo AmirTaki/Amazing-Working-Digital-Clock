@@ -42,6 +42,9 @@ body{
     stroke-width: 4;
     transform: translate(5px , 5px);
 }
+#time .circle svg circle:nth-child(2){
+    stroke: #f00;
+}
 #time div {
     position: absolute;
     text-align: center;
