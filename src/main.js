@@ -13,7 +13,7 @@ setInterval(() => {
 
     let hr_dot = document.querySelector(".hr_dot")
     let min_dot = document.querySelector(".min_dot")
-    let se_dot = document.querySelector(".sec_dot")
+    let se_dot = document.querySelector(".se_dot")
 
     let h = new Date().getHours();
     let m = new Date().getMinutes()
@@ -50,4 +50,7 @@ setInterval(() => {
 
     // 360 / 60 = 6
     min_dot.style.transform = `rotate(${m * 6}deg)`
+
+    se_dot.style.transform = `rotate(${s * 6}deg)`
+
 } )
