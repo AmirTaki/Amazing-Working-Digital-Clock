@@ -32,9 +32,9 @@ setInterval(() => {
     m = (m < 10) ? "0" + m : m
     s = (s < 10) ? "0" + s : s
 
-    hours.innerHTML = h + "<br/><span>Hours</span>";
-    minutes.innerHTML = m;
-    seconds.innerHTML = s;
+    hours.innerHTML = h + "<br/> <span> Hours </span>";
+    minutes.innerHTML = m + "<br/> <span> Minutes </span>";
+    seconds.innerHTML = s + "<br /> <span> Secounds </span>"; 
     ampm.innerHTML = am;
  
     // 12hr clock
