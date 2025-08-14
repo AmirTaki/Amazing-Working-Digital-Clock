@@ -43,4 +43,8 @@ setInterval(() => {
     mm.style.strokeDashoffset = 440 - (440 * m) / 60
     // 60 seconds
     ss.style.strokeDashoffset = 440 - (440 * s) / 60
+
+
+    // 360 / 12 = 30
+    hr_dot.style.transform = `rotate(${h * 30}deg)`
 } )
