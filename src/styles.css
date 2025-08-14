@@ -12,3 +12,9 @@ body{
     min-height: 100vh;
     background: #2f363e;
 }
+
+#time {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
