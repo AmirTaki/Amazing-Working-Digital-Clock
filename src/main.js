@@ -34,7 +34,7 @@ setInterval(() => {
 
     hours.innerHTML = h + "<br/> <span> Hours </span>";
     minutes.innerHTML = m + "<br/> <span> Minutes </span>";
-    seconds.innerHTML = s + "<br /> <span> Secounds </span>"; 
+    seconds.innerHTML = s + "<br /> <span> Seconds </span>"; 
     ampm.innerHTML = am;
  
     // 12hr clock
