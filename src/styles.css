@@ -43,7 +43,7 @@ body{
     transform: translate(5px , 5px);
 }
 #time .circle svg circle:nth-child(2){
-    stroke: #f00;
+    stroke: var(--clr);
 }
 #time div {
     position: absolute;
