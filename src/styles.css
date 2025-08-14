@@ -54,6 +54,15 @@ body{
     font-weight: 500;
     font-size: 1.5em;
 }
+
+#time div span {
+    position: absolute;
+    transform: translateX(-40%) translateY(-1px);
+    font-size: .35em ;
+    font-weight: 300;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
 #time .ap {
     position: relative;
     font-size: 1em;
