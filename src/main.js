@@ -5,10 +5,18 @@ const seconds = document.querySelector("#seconds")
 const ampm = document.querySelector("#ampm")
 
 
-const h = new Date().getHours();
-const m = new Date().getMinutes()
-const s = new Date().getSeconds()
-const am  = h > 12 ? "PM" : "AM";
+let h = new Date().getHours();
+let m = new Date().getMinutes()
+let s = new Date().getSeconds()
+let am  = h > 12 ? "PM" : "AM";
+
+// convert 24hr clock to 12hr clock
+
+if (h > 12){
+    h -= 12
+}
+
+
 
 hours.innerHTML = h;
 minutes.innerHTML = m;
