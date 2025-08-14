@@ -11,6 +11,8 @@ setInterval(() => {
     let ss = document.getElementById("ss")
 
 
+    let hr_dot = document.querySelector(".hr_dot")
+
     let h = new Date().getHours();
     let m = new Date().getMinutes()
     let s = new Date().getSeconds()
