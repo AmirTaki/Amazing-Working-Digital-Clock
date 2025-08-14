@@ -29,6 +29,12 @@ body{
     align-items: center;
 }
 
+#time .circle svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
 #time div {
     position: absolute;
     text-align: center;
