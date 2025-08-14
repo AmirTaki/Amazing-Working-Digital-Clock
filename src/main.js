@@ -8,6 +8,7 @@ setInterval(() => {
     
     let hh = document.getElementById("hh")
     let mm = document.getElementById("mm")
+    let ss = document.getElementById("ss")
 
 
     let h = new Date().getHours();
@@ -31,4 +32,6 @@ setInterval(() => {
     minutes.innerHTML = m;
     seconds.innerHTML = s;
     ampm.innerHTML = am;
+ 
+    hh.style.strokeDashoffset = 440 - (440 * h) / 12
 } )
