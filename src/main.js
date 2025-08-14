@@ -12,6 +12,8 @@ setInterval(() => {
 
 
     let hr_dot = document.querySelector(".hr_dot")
+    let min_dot = document.querySelector(".min_dot")
+    let se_dot = document.querySelector(".sec_dot")
 
     let h = new Date().getHours();
     let m = new Date().getMinutes()
